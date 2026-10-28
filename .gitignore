@@ -1,0 +1,17 @@
+# build output
+bin/
+release/
+**/build/
+
+# signing keys stay on the author's machine (a new key is generated when someone else builds)
+*.jks
+
+# test-only APK, rebuilt by testapp/build.ps1
+testapp/tvcleanertest.apk
+
+# APK v4 signature side files
+*.idsig
+
+# developer-only: design notes and the manual test app stay local
+docs/
+testapp/

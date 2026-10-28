@@ -1,0 +1,7 @@
+# Normalize line endings in the repository; Windows checkouts get CRLF
+* text=auto
+
+# Binary files must never be touched by line-ending conversion
+*.apk binary
+*.png binary
+*.jks binary
